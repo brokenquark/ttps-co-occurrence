@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+networkx = "*"
+openpyxl = "*"
+tabulate = "*"
+scipy = "*"
+numpy = "*"
+scikit-learn = "*"
+matplotlib = "*"
+seaborn = "*"
+cairocffi = "*"
+python-igraph = "*"
+apyori = "*"
+mlxtend = "*"
+prefixspan = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
